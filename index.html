@@ -73,16 +73,45 @@
       reconnaissance de couleurs, calcul de la solution) se font localement sur l'appareil.
     </p>
 
-    <h2>2. Données collectées</h2>
-    <p>Aucune. L'application :</p>
-    <ul>
-      <li>ne demande pas de création de compte&nbsp;;</li>
-      <li>ne collecte pas d'identifiant publicitaire&nbsp;;</li>
-      <li>n'intègre ni SDK analytique, ni SDK publicitaire&nbsp;;</li>
-      <li>ne journalise aucune action à distance.</li>
-    </ul>
+    <h2>2. Données collectées par l'application</h2>
+    <p>
+      QuickCube ne demande pas de création de compte et ne collecte aucune donnée personnelle par
+      elle-même (scan, résolution, préférences). Les seules données manipulées par des services
+      tiers le sont via les SDK listés ci-dessous&nbsp;:
+    </p>
 
-    <h2>3. Autorisations utilisées</h2>
+    <h2>3. Publicité — Google AdMob</h2>
+    <p>
+      La version gratuite affiche des bannières fournies par <strong>Google AdMob</strong> pour
+      permettre le développement de l'app. AdMob peut collecter et traiter&nbsp;:
+    </p>
+    <ul>
+      <li>l'identifiant publicitaire Android/iOS (réinitialisable dans les réglages système)&nbsp;;</li>
+      <li>des informations techniques d'appareil (modèle, OS, langue, type de réseau)&nbsp;;</li>
+      <li>une estimation de zone géographique approximative (pays, région)&nbsp;;</li>
+      <li>des événements liés aux annonces (affichage, clic).</li>
+    </ul>
+    <p>
+      Dans l'Espace Économique Européen, au Royaume-Uni et en Suisse, un formulaire de
+      consentement (<em>UMP</em>) est présenté à la première ouverture de l'application pour
+      choisir entre des annonces personnalisées ou non personnalisées. Politique complète
+      de Google&nbsp;: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.
+    </p>
+    <p>
+      <strong>Zéro publicité en version Premium</strong>&nbsp;: l'achat de « QuickCube Premium »
+      désactive complètement le SDK publicitaire sur l'appareil.
+    </p>
+
+    <h2>4. Achats in-app — Google Play Billing</h2>
+    <p>
+      QuickCube propose un achat unique « Premium » (produit
+      <code>com.quickcube.app.premium_lifetime</code>) traité par le <strong>Google Play Billing</strong>.
+      L'application ne voit ni numéro de carte, ni email, ni aucune donnée de paiement&nbsp;: tout
+      est géré par Google. La seule information conservée côté appareil est un flag local
+      «&nbsp;premium&nbsp;», restaurable via Google Play sur tout appareil connecté au même compte.
+    </p>
+
+    <h2>5. Autorisations utilisées</h2>
     <ul>
       <li>
         <strong>Caméra</strong> (<code>android.permission.CAMERA</code>) — indispensable pour
@@ -96,25 +125,25 @@
       </li>
     </ul>
 
-    <h2>4. Stockage local</h2>
+    <h2>6. Stockage local</h2>
     <p>
       La seule information conservée sur l'appareil est la préférence de thème (clair / sombre /
       auto), dans le stockage privé de l'application. Elle n'est jamais transmise.
     </p>
 
-    <h2>5. Enfants</h2>
+    <h2>7. Enfants</h2>
     <p>
       QuickCube n'est pas spécifiquement destinée aux enfants de moins de 13 ans, mais peut être
       utilisée sans risque puisqu'aucune donnée n'est collectée.
     </p>
 
-    <h2>6. Suppression des données</h2>
+    <h2>8. Suppression des données</h2>
     <p>
       Aucune donnée n'étant collectée côté serveur, il n'y a rien à supprimer côté éditeur.
       Désinstaller l'application efface l'intégralité des préférences locales.
     </p>
 
-    <h2>7. Vos droits</h2>
+    <h2>9. Vos droits</h2>
     <p>
       Vous pouvez à tout moment révoquer l'autorisation caméra depuis les paramètres Android
       (Paramètres → Applications → QuickCube → Autorisations). Pour toute question relative à
@@ -122,7 +151,7 @@
       <a href="mailto:benamaraissam86@gmail.com">benamaraissam86@gmail.com</a>.
     </p>
 
-    <h2>8. Modifications</h2>
+    <h2>10. Modifications</h2>
     <p>
       Cette politique peut être mise à jour si les fonctionnalités évoluent. La date en tête de
       page reflète la dernière révision publiée.
